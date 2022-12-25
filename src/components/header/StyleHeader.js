@@ -8,8 +8,8 @@ const StyleHeader = styled.div`
     position: fixed;
     top: 0;
     left: 0;
-    z-index: var(--z-fixed);
-    background-color: var(--body-color);
+    z-index: 1;
+    background-color: rgba(255,255,255,0.8);
 }
 
 .nav {
