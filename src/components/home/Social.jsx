@@ -6,7 +6,6 @@ const Social = () => {
       <a
         href="https://www.instagram.com/"
         className="home__social-icon"
-        target="_blank"
       >
         <i className="uil uil-instagram"></i>
       </a>
@@ -14,7 +13,6 @@ const Social = () => {
       <a
         href="https://dribbble.com/"
         className="home__social-icon"
-        target="_blank"
       >
         <i className="uil uil-dribbble"></i>
       </a>
@@ -22,7 +20,6 @@ const Social = () => {
       <a
         href="https://github.com/"
         className="home__social-icon"
-        target="_blank"
       >
         <i className="uil uil-github-alt"></i>
       </a>
