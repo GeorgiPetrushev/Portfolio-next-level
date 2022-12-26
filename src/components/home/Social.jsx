@@ -1,27 +1,16 @@
 import React from "react";
+import {CiLinkedin} from 'react-icons/ci';
+import {FiGithub} from 'react-icons/fi';
 
 const Social = () => {
   return (
     <div className="home__social">
-      <a
-        href="https://www.instagram.com/"
-        className="home__social-icon"
-      >
-        <i className="uil uil-instagram"></i>
+      <a href="https://www.linkedin.com/in/georgi-petrushev-9b867921a/" className="home__social-icon">
+        <i className="uil uil-dribbble"><CiLinkedin /></i>
       </a>
 
-      <a
-        href="https://dribbble.com/"
-        className="home__social-icon"
-      >
-        <i className="uil uil-dribbble"></i>
-      </a>
-
-      <a
-        href="https://github.com/"
-        className="home__social-icon"
-      >
-        <i className="uil uil-github-alt"></i>
+      <a href="https://github.com/GeorgiPetrushev" className="home__social-icon">
+        <i className="uil uil-github-alt"><FiGithub /></i>
       </a>
     </div>
   );
