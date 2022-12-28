@@ -1,4 +1,5 @@
 import React from "react";
+import { HiArrowNarrowDown } from "react-icons/hi";
 
 const ScrollDown = () => {
   return (
@@ -40,7 +41,7 @@ const ScrollDown = () => {
           ></path>
         </svg>
         <span className="home__scroll-name">Scroll Down</span>
-        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+        <HiArrowNarrowDown />
       </a>
     </div>
   );

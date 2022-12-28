@@ -6,11 +6,11 @@ const Social = () => {
   return (
     <div className="home__social">
       <a href="https://www.linkedin.com/in/georgi-petrushev-9b867921a/" className="home__social-icon">
-        <i className="uil uil-dribbble"><CiLinkedin /></i>
+        <CiLinkedin />
       </a>
 
       <a href="https://github.com/GeorgiPetrushev" className="home__social-icon">
-        <i className="uil uil-github-alt"><FiGithub /></i>
+        <FiGithub />
       </a>
     </div>
   );
