@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import StyleHeader from "./StyleHeader";
+import {FcOpenedFolder ,FcHome, FcAbout,FcServices,FcContacts} from 'react-icons/fc';
+import {GiSkills} from 'react-icons/gi';
+import {RiBodyScanFill} from 'react-icons/ri';
+import {AiOutlineClose} from 'react-icons/ai'
 
 const Header = () => {
   /*=============== Change Background Header ===============*/
@@ -32,7 +36,7 @@ const Header = () => {
                   activeNav === "#home" ? "nav__link active-link" : "nav__link"
                 }
               >
-                <i className="uil uil-estate nav__icon"></i> Home
+                <FcHome className="uil uil-file-alt nav__icon"/> Home
               </a>
             </li>
 
@@ -44,7 +48,7 @@ const Header = () => {
                   activeNav === "#about" ? "nav__link active-link" : "nav__link"
                 }
               >
-                <i className="uil uil-user nav__icon"></i> About
+                <FcAbout className="uil uil-file-alt nav__icon"/> About
               </a>
             </li>
 
@@ -58,7 +62,7 @@ const Header = () => {
                     : "nav__link"
                 }
               >
-                <i className="uil uil-file-alt nav__icon"></i> Skills
+                <GiSkills className="uil uil-file-alt nav__icon"/> Skills
               </a>
             </li>
 
@@ -72,7 +76,7 @@ const Header = () => {
                     : "nav__link"
                 }
               >
-                <i className="uil uil-briefcase-alt nav__icon"></i> Services
+                <FcServices className="uil uil-file-alt nav__icon" /> Services
               </a>
             </li>
 
@@ -86,7 +90,7 @@ const Header = () => {
                     : "nav__link"
                 }
               >
-                <i className="uil uil-scenery nav__icon"></i> Portfolio
+                <RiBodyScanFill className="uil uil-file-alt nav__icon"/> Portfolio
               </a>
             </li>
 
@@ -100,19 +104,19 @@ const Header = () => {
                     : "nav__link"
                 }
               >
-                <i className="uil uil-message nav__icon"></i> Contact
+                <FcContacts className="uil uil-file-alt nav__icon"/> Contact
               </a>
             </li>
           </ul>
 
-          <i
+          <div
             className="uil uil-times nav__close"
             onClick={() => showMenu(!Toggle)}
-          ></i>
+          ><AiOutlineClose className="uil uil-times nav__close"/></div>
         </div>
 
         <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
-          <i className="uil uil-apps"></i>
+          <FcOpenedFolder className="uil uil-app nav__open"/>
         </div>
       </nav>
     </header>

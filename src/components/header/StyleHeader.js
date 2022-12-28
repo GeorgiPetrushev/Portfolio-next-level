@@ -50,7 +50,7 @@ const StyleHeader = styled.div`
 /* Active link */
 .active-link,
 .nav__link:hover {
-    color: var(--title-color-dark);
+    color: red;
 }
 
 /* Change background header */
@@ -96,11 +96,13 @@ const StyleHeader = styled.div`
     .nav__icon {
         font-size: 1.2rem;
     }
-
+    .nav__open{ 
+        font-size: 1.5rem;
+    }
     .nav__close {
         position: absolute;
-        right: 1.3rem;
-        bottom: .5rem;
+        right: 0.7rem;
+        bottom: .4rem;
         font-size: 1.5rem;
         cursor: pointer;
         color: var(--title-color);
