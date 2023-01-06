@@ -1,9 +1,18 @@
-import React from 'react'
+import Frontend from "./Frontend";
+import Backend from "./Backend";
 
 const Skills = () => {
   return (
-    <div>Skills</div>
-  )
-}
+    <section className="skills section" id="skills">
+      <h2 className="section__title">Skills</h2>
+      <span className="section__subtitle">My technical level</span>
 
-export default Skills
+      <div className="skills__container container grid">
+        <Frontend />
+        <Backend />
+      </div>
+    </section>
+  );
+};
+
+export default Skills;
