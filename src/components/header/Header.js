@@ -76,7 +76,7 @@ const Header = () => {
                     : "nav__link"
                 }
               >
-                <FcServices className="uil uil-file-alt nav__icon" /> Services
+                <FcServices className="uil uil-file-alt nav__icon" /> Qualification
               </a>
             </li>
 
