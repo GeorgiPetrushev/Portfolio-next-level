@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import MyImgMain from "../../images/MyImgMain.jpg";
+import MyImgMain from "../../images/MyImg.jpg";
 
 const HomeStyle = styled.div`
   .home__container {
