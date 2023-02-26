@@ -7,14 +7,14 @@ const StyleScrollUp = styled.div`
     bottom: -20%;
     background-color: var(--title-color);
     opacity: 0.8;
-    padding: 0.3rem 0.5rem;
-    border-radius: 0.4rem;
+    padding: 0.5rem 0.6rem;
+    border-radius: 0.3rem;
     z-index: var(--z-tooltip);
     transition: 0.4s;
   }
 
   .scrollup__icon {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     color: var(--container-color);
   }
 
@@ -24,7 +24,7 @@ const StyleScrollUp = styled.div`
 
   /* Show Scroll */
   .show-scroll {
-    bottom: 3rem;
+    bottom: 2rem;
   }
 
   /*=============== BREAKPOINTS ===============*/
@@ -36,7 +36,7 @@ const StyleScrollUp = styled.div`
     }
 
     .scrollup__icon {
-      font-size: 1.25rem;
+      font-size: 1.55rem;
     }
   }
 

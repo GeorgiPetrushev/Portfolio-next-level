@@ -1,6 +1,6 @@
 import React from "react";
 import StyleScrollUp from "./StyleScrollUp";
-import {ImArrowUp} from 'react-icons/im';
+import {FiArrowUp} from 'react-icons/fi';
 
 const ScrollUp = () => {
   window.addEventListener("scroll", function () {
@@ -12,7 +12,7 @@ const ScrollUp = () => {
   return (
     <StyleScrollUp>
       <a href="/#" className="scrollup">
-        <ImArrowUp className="uil uil-arrow-up scrollup__icon"></ImArrowUp>
+        <FiArrowUp className="uil uil-arrow-up scrollup__icon"></FiArrowUp>
       </a>
     </StyleScrollUp>
   );
