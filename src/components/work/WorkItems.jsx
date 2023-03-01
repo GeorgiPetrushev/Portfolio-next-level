@@ -1,15 +1,21 @@
 import React from "react";
-import {RiArrowRightLine} from 'react-icons/ri';
+import { RiArrowRightLine } from "react-icons/ri";
 
 const WorkItems = ({ item }) => {
   return (
     <div className="work__card" key={item.id}>
       <img src={item.image} alt="" className="work__img" />
       <h3 className="work__title">{item.title}</h3>
-      <a href="/#" className="work__button">
-        Demo
-        <RiArrowRightLine className="bx bx-right-arrow-alt work__button-icon"></RiArrowRightLine>
-      </a>
+      <div className="work__bottom">
+        <a href="/#" className="work__button">
+          Website
+          <RiArrowRightLine className="bx bx-right-arrow-alt work__button-icon"></RiArrowRightLine>
+        </a>
+        <a href="/#" className="work__button">
+          GitHub
+          <RiArrowRightLine className="bx bx-right-arrow-alt work__button-icon"></RiArrowRightLine>
+        </a>
+      </div>
     </div>
   );
 };
