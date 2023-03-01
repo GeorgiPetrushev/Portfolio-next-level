@@ -1,5 +1,7 @@
 import React from "react";
 import StyledFooter from "./StyleFooter";
+import {AiFillGithub,AiFillLinkedin,AiOutlineTwitter} from 'react-icons/ai';
+
 
 const Footer = () => {
   return (
@@ -30,30 +32,30 @@ const Footer = () => {
 
           <div className="footer__social">
             <a
-              href="https://www.facebook.com/"
+              href="https://github.com/GeorgiPetrushev"
               className="footer__social-link"
               target="_blank"
               rel="noreferrer"
             >
-              <i className="bx bxl-facebook"></i>
+              <AiFillGithub className="bx bxl-facebook"></AiFillGithub>
             </a>
 
             <a
-              href="https://www.instagram.com/"
+              href="https://www.linkedin.com/in/georgi-petrushev-9b867921a/"
               className="footer__social-link"
               target="_blank"
               rel="noreferrer"
             >
-              <i className="bx bxl-instagram"></i>
+              <AiFillLinkedin className="bx bxl-instagram"></AiFillLinkedin>
             </a>
 
             <a
-              href="https://twitter.com/"
+              href="https://twitter.com/PetrushevGeorgi"
               className="footer__social-link"
               target="_blank"
               rel="noreferrer"
             >
-              <i className="bx bxl-twitter"></i>
+              <AiOutlineTwitter className="bx bxl-twitter"></AiOutlineTwitter>
             </a>
           </div>
 
