@@ -1,4 +1,5 @@
 import React from "react";
+import {RiArrowRightLine} from 'react-icons/ri';
 
 const WorkItems = ({ item }) => {
   return (
@@ -7,7 +8,7 @@ const WorkItems = ({ item }) => {
       <h3 className="work__title">{item.title}</h3>
       <a href="/#" className="work__button">
         Demo
-        <i className="bx bx-right-arrow-alt work__button-icon"></i>
+        <RiArrowRightLine className="bx bx-right-arrow-alt work__button-icon"></RiArrowRightLine>
       </a>
     </div>
   );

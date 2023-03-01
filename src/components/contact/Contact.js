@@ -1,6 +1,9 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import StyleContact from "./StyleContact";
+import {RiArrowRightLine} from 'react-icons/ri';
+import {BiMailSend} from 'react-icons/bi';
+import {BsFillTelephoneForwardFill,BsMessenger} from 'react-icons/bs';
 
 const Contact = () => {
   const form = useRef();
@@ -29,47 +32,47 @@ const Contact = () => {
 
             <div className="contact__info">
               <div className="contact__card">
-                <i className="bx bx-mail-send contact__card-icon"></i>
+                <BiMailSend className="bx bx-mail-send contact__card-icon"></BiMailSend>
 
                 <h3 className="contact__card-title">Email</h3>
                 <span className="contact__card-data">george.petrushev.bell@gmail.com</span>
 
                 <a
-                  href="mailto:examplemail@gmail.com.com"
+                  href="mailto:george.petrushev.bell@gmail.com"
                   className="contact__button"
                 >
                   Write me{" "}
-                  <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                  <RiArrowRightLine className="bx bx-right-arrow-alt contact__button-icon"></RiArrowRightLine>
                 </a>
               </div>
 
               <div className="contact__card">
-                <i className="bx bxl-whatsapp contact__card-icon"></i>
+                <BsFillTelephoneForwardFill className="bx bxl-whatsapp contact__card-icon"></BsFillTelephoneForwardFill>
 
                 <h3 className="contact__card-title">Phone Number</h3>
                 <span className="contact__card-data">443-824-5866</span>
 
                 <a
-                  href="https://api.whatsapp.com/send?phone=62214408789&text=Hello, more information!"
+                  href="tel:443-824-5866"
                   className="contact__button"
                 >
                   Write me{" "}
-                  <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                  <RiArrowRightLine className="bx bx-right-arrow-alt contact__button-icon"></RiArrowRightLine>
                 </a>
               </div>
 
               <div className="contact__card">
-                <i className="bx bxl-messenger contact__card-icon"></i>
+                <BsMessenger className="bx bxl-messenger contact__card-icon"></BsMessenger>
 
                 <h3 className="contact__card-title">Messenger</h3>
-                <span className="contact__card-data">user.fb123</span>
+                <span className="contact__card-data">Georgi.Petrushev</span>
 
                 <a
-                  href="https://m.me/crypticalcoder"
+                  href="https://m.me/https://www.messenger.com/t/1307870941"
                   className="contact__button"
                 >
                   Write me{" "}
-                  <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                  <RiArrowRightLine className="bx bx-right-arrow-alt contact__button-icon"></RiArrowRightLine>
                 </a>
               </div>
             </div>

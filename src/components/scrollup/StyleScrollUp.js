@@ -9,7 +9,7 @@ const StyleScrollUp = styled.div`
     opacity: 0.8;
     padding: 0.5rem 0.6rem;
     border-radius: 0.3rem;
-    z-index: var(--z-tooltip);
+    z-index: 9;
     transition: 0.4s;
   }
 
