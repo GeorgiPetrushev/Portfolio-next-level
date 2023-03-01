@@ -5,7 +5,7 @@ const StyleScrollUp = styled.div`
     position: fixed;
     right: 2.5rem;
     bottom: -20%;
-    background-color: var(--title-color);
+    background-color: rgba(0,0,0,0.6);
     opacity: 0.8;
     padding: 0.5rem 0.6rem;
     border-radius: 0.3rem;
@@ -19,7 +19,7 @@ const StyleScrollUp = styled.div`
   }
 
   .scrollup:hover {
-    background-color: var(--title-color-dark);
+    background-color: rgba(0,0,0,0.9);
   }
 
   /* Show Scroll */
@@ -31,7 +31,7 @@ const StyleScrollUp = styled.div`
   /* For large devices */
   @media screen and (max-width: 992px) {
     .scrollup {
-      right: 1.5rem;
+      right: 0.5rem;
       padding: 0.25rem 0.4rem;
     }
 
@@ -50,7 +50,7 @@ const StyleScrollUp = styled.div`
   /* For small devices */
   @media screen and (max-width: 350px) {
     .scrollup {
-      right: 1rem;
+      right: 2rem;
     }
   }
 `;
