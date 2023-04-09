@@ -1,9 +1,9 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import StyleContact from "./StyleContact";
-import {RiArrowRightLine} from 'react-icons/ri';
-import {BiMailSend} from 'react-icons/bi';
-import {BsFillTelephoneForwardFill,BsMessenger} from 'react-icons/bs';
+import { RiArrowRightLine } from "react-icons/ri";
+import { BiMailSend } from "react-icons/bi";
+import { BsFillTelephoneForwardFill, BsMessenger } from "react-icons/bs";
 
 const Contact = () => {
   const form = useRef();
@@ -35,7 +35,9 @@ const Contact = () => {
                 <BiMailSend className="bx bx-mail-send contact__card-icon"></BiMailSend>
 
                 <h3 className="contact__card-title">Email</h3>
-                <span className="contact__card-data">george.petrushev.bell@gmail.com</span>
+                <span className="contact__card-data">
+                  george.petrushev.bell@gmail.com
+                </span>
 
                 <a
                   href="mailto:george.petrushev.bell@gmail.com"
@@ -52,10 +54,7 @@ const Contact = () => {
                 <h3 className="contact__card-title">Phone Number</h3>
                 <span className="contact__card-data">443-824-5866</span>
 
-                <a
-                  href="tel:443-824-5866"
-                  className="contact__button"
-                >
+                <a href="tel:443-824-5866" className="contact__button">
                   Write me{" "}
                   <RiArrowRightLine className="bx bx-right-arrow-alt contact__button-icon"></RiArrowRightLine>
                 </a>
@@ -65,9 +64,11 @@ const Contact = () => {
                 <BsMessenger className="bx bxl-messenger contact__card-icon"></BsMessenger>
 
                 <h3 className="contact__card-title">Messenger</h3>
-                <span className="contact__card-data">Georgi.Petrushev</span>
+                <span className="contact__card-data">Georgi Petrushev</span>
 
                 <a
+                  target="_blank"
+                  rel="noreferrer"
                   href="https://m.me/https://www.messenger.com/t/1307870941"
                   className="contact__button"
                 >
