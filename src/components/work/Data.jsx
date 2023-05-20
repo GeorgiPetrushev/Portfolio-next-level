@@ -9,13 +9,15 @@ export const projectsData = [
     id: 1,
     image: Work1,
     title: "Web design",
-    category: "web",
+    category: "Social Media",
+    web:"https://app.netlify.com/sites/photostory/overview" ,
+    gitHub: "https://github.com/GeorgiPetrushev/photo-story-front"
   },
   {
     id: 2,
     image: Work2,
     title: "App movil",
-    category: "app",
+    category: "Stor",
   },
   {
     id: 3,
@@ -27,13 +29,13 @@ export const projectsData = [
     id: 4,
     image: Work4,
     title: "App movil",
-    category: "app",
+    category: "Stor",
   },
   {
     id: 5,
     image: Work5,
     title: "Web design",
-    category: "web",
+    category: "Social Media",
   },
 ];
 
@@ -43,10 +45,10 @@ export const projectsNav = [
     name: "all",
   },
   {
-    name: "web",
+    name: "Social Media",
   },
   {
-    name: "app",
+    name: "Stor",
   },
   {
     name: "design",
