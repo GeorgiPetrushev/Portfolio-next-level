@@ -10,7 +10,7 @@ export const projectsData = [
     image: Work1,
     title: "Web design",
     category: "Social Media",
-    web:"https://app.netlify.com/sites/photostory/overview" ,
+    web:"https://photostory.netlify.app/" ,
     gitHub: "https://github.com/GeorgiPetrushev/photo-story-front"
   },
   {
